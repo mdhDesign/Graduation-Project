@@ -15,4 +15,4 @@ This repo include all file I used in my graduation project 2018 (presentation, w
 
 ![](Presentation/web-preview2.jpg)
 
-![](Presentation/designArtboard1_1.jpg)
+![](images/designArtboard1_1.jpg)
