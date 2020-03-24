@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="themeColor">#0f131d</color>
+    <color name="lowBrown">#8c7a64</color>
+    <color name="brown">#ba8749</color>
+    <color name="NavViewBG">#161b27</color>
+    <color name="NavViewLightBG">#191f2c</color>
+    <color name="ExtraLight">#e9ecf3</color>
+    <color name="Light">#9198a9</color>
+    <color name="MarkerCircle">#FFD32F2F</color>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Service 14</string>
+    <string name="emergency_call">For Emergency Call</string>
+    <string name="emergency_number">14</string>
+    <string name="settings">Settings</string>
+    <string name="instructions">Instructions</string>
+    <string name="automatically_call">Automatically call</string>
+    <string name="automatically_call_desc">Automatic Car Accident Detection and Notification</string>
+    <string name="fire">Fire</string>
+    <string name="electricity">Electricity</string>
+    <string name="patient">Patient</string>
+    <string name="accident">Accident</string>
+    <string name="aid_title">First Aid</string>
+    <string name="aid_desc">Reference guide to all the key skills you\'ll need</string>
+    <string name="map_title">Map all Incidents</string>
+    <string name="map_desc">Map with markers for all incidents</string>
+    <string name="manual_title">Manual warning</string>
+    <string name="manual_desc">Please specify accident type</string>
+    <string name="count_down_title">Notification will be sent after</string>
+    <string name="counter_number">30</string>
+    <string name="seconds">Seconds</string>
+    <string name="send_notification">Send notification</string>
+    <string name="stop_notification">Stop notification</string>
+    <string name="notification">Nearby car collision detection</string>
+    <string name="in_circle_title">Nearby Accident</string>
+    <string name="in_circle_text">Please reduce your speed and take care</string>
+    <string name="out_circle_title">Nearby Accident</string>
+    <string name="out_circle_text">You are no longer in accident area, drive safe</string>
+    <string name="google_maps_key">YOUR_KEY_HERE</string>
+</resources>

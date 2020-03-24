@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="28dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone_activity_logo"
+                android:layout_marginBottom="@dimen/space16"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space8"
+                android:text="Please enter your phone number"
+                android:textStyle="bold"
+                android:textSize="@dimen/h2"
+                android:gravity="center"
+                android:textColor="@color/ExtraLight"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space24"
+                android:gravity="center"
+                android:text="We need your phone number in case we need more information about accident and to confirm the notification."
+                android:textSize="@dimen/p"
+                android:textColor="@color/Light"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/space16"
+                android:layout_marginBottom="@dimen/space24">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+213"
+                    android:textColor="@color/Light" />
+
+                <EditText
+                    android:id="@+id/et_phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="0771999999"
+                    android:inputType="phone"
+                    android:textStyle="bold"
+                    android:textColorHint="#575c69"
+                    android:textColor="@color/ExtraLight"
+                    android:textColorHighlight="@color/ExtraLight"
+                    android:background="@drawable/et_background"
+                    android:textSize="@dimen/h2" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_send_notification"
+                android:text="Add Number"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/p"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/NavViewLightBG"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/space44">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_call"
+        android:textAppearance="@style/AllCapText"
+        android:textColor="@color/Light"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-25dp"
+        android:text="@string/emergency_number"
+        android:textAppearance="@style/EmergencyNumber"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeColor</item>
+        <item name="colorPrimaryDark">@color/themeColor</item>
+        <item name="colorAccent">@color/brown</item>
+        <item name="android:windowBackground">@color/themeColor</item>
+        <item name="android:textColorHint">@color/Light</item>
+
+    </style>
+    <style name="AppTheme.Trans" parent="AppTheme"></style>
+    <style name="AllCapText">
+        <item name="android:textSize">@dimen/h6</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/brown</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="EmergencyNumber" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/h0</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="switchStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/brown</item>
+        <item name="colorSwitchThumbNormal">#3d4559</item>
+        <item name="android:colorForeground">@color/themeColor</item>
+    </style>
+</resources>
