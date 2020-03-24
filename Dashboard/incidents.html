@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Civil Protection dashboard</title>
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container clear">
+      <nav>
+        <ul>
+          <li><a href="index.html" class="recent-incidets">Recent incidents</a></li>
+          <li><a href="working.html" class="working-on">Working on</a></li>
+          <li class="active"><a href="incidents.html">All incidents</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div id="map"></div>
+  <div class="container">
+    <h1 class="incidents-title">All incidents</h1>
+    <div class="notifications">
+      <div class="notification-header">
+        <div class="notification-cell"></div>
+        <div class="notification-cell"><h3>Type</h3></div>
+        <div class="notification-cell"><h3>Latitude</h3></div>
+        <div class="notification-cell"><h3>Longitude</h3></div>
+        <div class="notification-cell"><h3>Region</h3></div>
+        <div class="notification-cell"><h3>Date</h3></div>
+        <div class="notification-cell"><h3>Caller Phone</h3></div>
+        <div class="notification-cell"><h3>Caller Imei</h3></div>
+        <div class="notificaiton-cell"><h3>progress</h3></div>
+        <div class="notificaiton-cell"></div>
+        <div class="notificaiton-cell"></div>
+      </div>
+      <div class="notification-body" id="notification-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      All Rights are reserved &copy; 2018.
+    </div>
+  </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ-BxAEsDGoVpELrC4hA4-vvy94z3umuk&callback=initMap" async defer></script>
+  <script src="assets/js/googlemap.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script src="assets/js/firebase.js"></script>
+</body>
+</html>
