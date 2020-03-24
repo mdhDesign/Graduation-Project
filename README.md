@@ -15,4 +15,8 @@ This repo includes all files I used in my graduation project 2018 (presentation,
 
 ![](Presentation/web-preview2.jpg)
 
-![](images/designArtboard1_1.jpg)
+
+<p align="center">
+  <img src="images/designArtboard1_1.jpg"/>
+</p>
+
