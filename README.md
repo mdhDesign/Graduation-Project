@@ -7,7 +7,7 @@ This repo include all file I used in my graduation project 2018 (presentation, w
   <img src="images/state-2.png" width="350"/>
 </p>
 
-![](Presentation/Mobile-first.jpg)
+![](Presentation/Mobile-first.png)
 
 ![](Presentation/Mobile-second.jpg)
 
